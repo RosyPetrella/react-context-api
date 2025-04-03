@@ -36,7 +36,7 @@ export default function Post() {
                 <div className="col-12 col-md-5">
                   <img
                     className="img-fluid"
-                    src={`http://localhost:3003${posts.image}`}
+                    src={`http://localhost:3003${post.image}`}
                     alt=""
                   />
                 </div>
@@ -44,8 +44,8 @@ export default function Post() {
                   <button className="back" onClick={() => navigate(-1)}>
                     GO BACK
                   </button>
-                  <h1>{posts.title}</h1>
-                  <p>{posts.content}</p>
+                  <h1>{post.title}</h1>
+                  <p>{post.content}</p>
                 </div>
               </div>
             </div>
